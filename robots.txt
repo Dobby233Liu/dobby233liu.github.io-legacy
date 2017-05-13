@@ -1,0 +1,7 @@
+# robots.txt generated at http://www.51240.com
+User-agent: baiduspider
+Disallow: /
+User-agent: *
+Disallow: 
+Disallow: /2048
+Disallow: /
