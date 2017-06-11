@@ -1,1 +1,1 @@
-[Minimal](https://github.com/pages-theme/minimal)
+[Minimal](https://github.com/pages-theme/minimal) @TemTemmie
