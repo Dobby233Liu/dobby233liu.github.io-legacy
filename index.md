@@ -7,3 +7,4 @@ title: Home Page
 [Floweey Teme MacHiNe](https://dobby233liu.github.io/FloweysTimeMachine/)
 [Tem Shop](https://dobby233liu.github.io/temmieshop/public/index.html)
 [HurR-RRor](https://dobby233liu.github.io/hurr-durr.org/) and [hurrInside](https://dobby233liu.github.io/hurr-durr.org/Inside.html)
+[Blog](http://hide8.cc/dobby233liuspam)
