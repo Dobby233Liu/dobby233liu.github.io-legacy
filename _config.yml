@@ -11,3 +11,7 @@ theme: jekyll-theme-minimal
   gems:
   - jekyll-mentions
   - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-seo-tag
+ # - jekyll-sitemap
+  - jemoji
