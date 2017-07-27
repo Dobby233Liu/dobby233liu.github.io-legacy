@@ -28,6 +28,7 @@ var N=-1;
 
 
 var bar1= createBar(290,25,'white',1,'black','#4396ca',85,7,3,"");
+var bar2=createBar(300,15,'white',1,'black','blue',85,7,4,'bar1.togglePause()');
 
 function createBar(w,h,bgc,brdW,brdC,blkC,speed,blocks,count,action){
 if(ie||w3c){
