@@ -26,6 +26,9 @@ var w3c=(document.getElementById)?true:false;
 var ie=(document.all)?true:false;
 var N=-1;
 
+function.BAR();
+var bar1= createBar(290,25,'white',1,'black','#4396ca',85,7,3,"");
+
 function createBar(w,h,bgc,brdW,brdC,blkC,speed,blocks,count,action){
 if(ie||w3c){
 var t='<div id="_xpbar'+(++N)+'" style="visibility:visible; position:relative; overflow:hidden; width:'+w+'px; height:'+h+'px; background-color:'+bgc+'; border-color:'+brdC+'; border-width:'+brdW+'px; border-style:solid; font-size:1px;">';
