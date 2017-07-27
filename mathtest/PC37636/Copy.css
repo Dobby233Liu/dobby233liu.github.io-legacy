@@ -1,0 +1,359 @@
+/*
+ *  psd2css.css
+ *
+ *  This is your external CSS style sheet. It defines all of the CSS styles that you
+ *  are using in your page.  If you are going to create multiple pages from the same
+ *  PSD file (like a template), you will share this CSS style sheet between the various
+ *  pages.
+ *
+ *  This file was originally generated at http://psd2cssonline.com 
+ *  October 18, 2009, 4:59 am with psd2css Online version 1.55
+ *
+ */
+
+body {
+  text-align: center;
+  background-color: #715238;  
+  background-image: url("Layer-1.png");
+  background-repeat: repeat-x;
+  margin-left: auto; 
+  margin-right: auto; 
+  }
+
+h1 {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+h2 {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  }
+
+h3 {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #2b2b2b;
+  margin-top: 0px;
+  }
+  
+/* You named this layer pagebg_bkgnd */
+#Layer-1 {
+	position: absolute;
+	left: +0px;
+	top: +0px;
+	width: 1024px;
+	height: 910px;
+	z-index: 1;
+}
+
+/* You named this layer bodybg */
+#Layer-2 {
+  position: absolute;
+  left: 51px;
+  top: 210px;
+  width: 973px;
+  height: 654px;
+  z-index: 2;
+}
+
+/* You named this layer menubg_bkgnd */
+#Layer-3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 973px;
+  height: 50px;
+  z-index: 3;
+  background-image: url(Layer-3.png);
+}
+
+/* You named this layer box */
+#Layer-4 {
+  position: absolute;
+  left: 249px;
+  top: 208px;
+  width: 522px;
+  height: 272px;
+  border:2px solid #454b99; 
+  z-index: 4;
+}
+
+#Layer-4f {
+  position: absolute;
+  left: 249px;
+  top: 208px;
+  width: 522px;
+  height: 272px;
+  border:2px solid #454b99; 
+  background-image: url(Layer-4f.png);
+  z-index: 5;
+  visibility: hidden;
+}
+
+#Layer-4g {
+  position: absolute;
+  left: 249px;
+  top: 208px;
+  width: 522px;
+  height: 272px;
+  border:2px solid #454b99; 
+  background-image: url(Layer-4g.png);
+  z-index: 6;
+  visibility: hidden;
+}
+
+#reg_form {
+  position: absolute;
+  left: -200px;
+  top: -180px;
+  z-index: 7;
+  }
+
+/* You named this layer menutitle_text_\#FFFFFF Unused W */
+#Layer-5 {
+  position: absolute;
+  left: 248px;
+  top: 16px;
+  width: 523px;
+  height: 19px;
+  z-index: 5;
+
+  /* Here are some suggestions for this area's text settings */
+  text-align: left;
+  /* If you don't want scroll bars when your content gets bigger than the space
+   * you designed for it, remove the following line.     
+  overflow: auto; */
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #FFFFFF;
+}
+
+/* You named this layer adsense - right */
+#Layer-6 {
+  position: absolute;
+  left: 814px;
+  top: 226px;
+  width: 120px;
+  height: 240px;
+  z-index: 6;
+}
+
+/* You named this layer adsense - bottom */
+#Layer-7 {
+  position: absolute;
+  left: 270px;
+  top: 550px;
+  width: 468px;
+  height: 60px;
+  z-index: 7;
+}
+
+/* You named this layer adsense - left */
+#Layer-8 {
+  position: absolute;
+  left: 40px;
+  top: 70px;
+  width: 160px;
+  height: 600px;
+  z-index: 8;
+}
+
+/* You named this layer bodytext_text_\#333333 Generate */
+#Layer-9 {
+  position: absolute;
+  left: 248px;
+  top: 68px;
+  width: 523px;
+  height: 105px;
+  z-index: 9;
+
+  /* Here are some suggestions for this area's text settings */
+  text-align: left;
+  vertical-align: top;
+  /* If you don't want scroll bars when your content gets bigger than the space
+   * you designed for it, remove the following line.      
+  overflow: auto;*/
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+
+/* You named this layer bodytext_text_\#333333 Generate */
+#Layer-9b {
+  position: absolute;
+  left: 275px;
+  top: 180px;
+  width: 468px;
+  height: 15px;
+  z-index: 10;
+
+  /* Here are some suggestions for this area's text settings */
+  text-align: left;
+  /* If you don't want scroll bars when your content gets bigger than the space
+   * you designed for it, remove the following line.      
+  overflow: auto;*/
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+/* You named this layer login_text_\#0f107a Log into www */
+#Layer-10 {
+	position: absolute;
+	left: 116px;
+	top: 109px;
+	width: 293px;
+	height: 31px;
+	z-index: 10;
+	/* Here are some suggestions for this area's text settings */
+	text-align: left;
+	/* If you don't want scroll bars when your content gets bigger than the space
+   * you designed for it, remove the following line.      */
+	overflow: auto;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0f107a;
+}
+
+/* You named this layer webkinz world */
+#Layer-11 {
+  position: absolute;
+  left: 168px;
+  top: 13px;
+  width: 187px;
+  height: 79px;
+  z-index: 11;
+}
+
+/* You named this layer secret code */
+#Layer-12 {
+	position: absolute;
+	left: 84px;
+	top: 153px;
+	height: 44px;
+	width: 356px;
+	z-index: 12;
+	text-align: center;
+	border: 1px solid #990066;
+	background-color: #FFFFFF;
+	padding-top: 16px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #000000;
+	letter-spacing: 3px;
+}
+
+#Layer-12bar {
+  position: absolute;
+  left: 114px;
+  top: 170px;
+  height: 42px;
+  width: 290px;
+  z-index: 13;
+  visibility: hidden;
+}
+
+/* You named this layer generate button */
+#Layer-13 {
+	position: absolute;
+	left: 203px;
+	top: 232px;
+	width: 114px;
+	height: 22px;
+	z-index: 13;
+}
+
+/* You named this layer _textinput 
+#Layer-14 {
+  position: absolute;
+  left: 130px;
+  top: 175px;
+  width: 262px;
+  height: 52px;
+  z-index: 14;
+}*/
+
+/* You named this layer dis_text_\#333333 Disclaimer: Th */
+#Layer-15 {
+  position: absolute;
+  left: 248px;
+  top: 495px;
+  width: 523px;
+  height: 33px;
+  z-index: 15;
+
+  /* Here are some suggestions for this area's text settings */
+  text-align: left;
+  /* If you don't want scroll bars when your content gets bigger than the space
+   * you designed for it, remove the following line.      
+  overflow: auto; */
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  color: #333333;
+}
+
+/* You named this layer headbg _bkgnd */
+#Layer-16 {
+  position: absolute;
+  left: 197px;
+  top: 45px;
+  width: 827px;
+  height: 129px;
+  z-index: 16;
+/*  background-image: url(Layer-16.png);*/
+}
+
+/* You named this layer h1_text_\#0f107a FREE Webkinz Co */
+#Layer-17 {
+	position: absolute;
+	left: 204px;
+	top: 45px;
+	width: 601px;
+	height: 39px;
+	z-index: 17;
+	/* Here are some suggestions for this area's text settings */
+	text-align: left;
+	/* If you don't want scroll bars when your content gets bigger than the space
+   * you designed for it, remove the following line.     
+  overflow: auto;  */
+	
+}
+
+/* You named this layer codegen logo */
+#Layer-18 {
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  width: 350px;
+  height: 198px;
+  z-index: 18;
+}
+
+#Layer-19 {
+  position: absolute;
+  left: 792px;
+  top: 68px;
+  width: 160px;
+  height: 135px;
+  z-index: 19;
+}
+
+/* Here are some examples of how you might want to change the
+ * look and behavior of the links on your page.  Some examples for
+ * further customization are included in comments.  */
+a { cursor: pointer; }
+a:link { color: #2b2b2b; }
+a:visited { color: #2b2b2b; }
+a:hover {
+  color: #2b2b2b;
+  /* text-decoration: underline; */
+  /* font-weight: bold; */
+}
