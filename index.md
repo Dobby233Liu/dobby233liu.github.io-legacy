@@ -9,3 +9,4 @@ title: Home Page
 [HurR-RRor](https://dobby233liu.github.io/hurr-durr.org/) and [hurrInside](https://dobby233liu.github.io/hurr-durr.org/Inside.html)
 [Blog](http://hide8.cc/dobby233liuspam)
 [有关MOTI](https://dobby233liu.github.io/About_Man_on_the_Internet-CN/README.html)
+[mc](https://dobby233liu.github.io/mc/)
