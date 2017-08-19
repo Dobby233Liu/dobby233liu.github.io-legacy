@@ -1,3 +1,12 @@
 #bbghover {
 background-color: #FF000000;
+  color: #FF000000;
+}
+#bbghover:hover {
+background-color: #FF000000;
+  color: #FFFFFFFF;
+}
+#bbgnohover {
+background-color: #FF000000;
+  color: #FF000000;
 }
