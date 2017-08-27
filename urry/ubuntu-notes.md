@@ -104,7 +104,7 @@ Typora的插入表格功能的便捷程度我已经无语了，当初用Atom写�
 
 FTP？一堆工具可选，自个儿百度吧。
 
-图像编辑？刚刚处理图像用了下gimp，还真别说，就和Photoshop一样的手感，挺好用的。不过记得调节成“单窗口模式”，不然浮动的窗口模式我接受不了。给大家看看截图：
+图像编辑？刚刚处理图像用了下gimp，还真别说，各种功能和与Photoshop一样的手感，真的挺好用的。不过，记得调节成“单窗口模式”，不然浮动的窗口模式我接受不了。给大家看看截图：
 
 ![010](https://public.lightpic.info/image/9987_599FFBAB0.jpg)
 
@@ -114,7 +114,7 @@ FTP？一堆工具可选，自个儿百度吧。
 
 ## 3. 开发工具
 
-Linux系统相比于Windows的优势就在于此，搞开发十分方便。Ubuntu 16.04 LTS 本身自带 Python，Open JDK这两个库。Open JDK本身也比较新，不过别人还是推荐用Oracle JDK。通过`apt-get`指令安装库也十分方便。当初想在Windows下跑jekyll，折腾ruby就折腾了一天，到最后也没弄好。在Ubuntu下？三条指令一打，三分钟不到就完事了。
+Linux系统相比于Windows的优势就在于此，搞开发十分方便。Ubuntu 16.04 LTS 本身自带 Python，Open JDK这两个库。Open JDK本身也比较新，不过别人还是推荐用Oracle JDK。通过`apt-get`指令安装库也十分方便。当初想在Windows下跑jekyll，折腾ruby就折腾了一天，到最后也没弄好。在Ubuntu下呢？三条指令一打，三分钟不到就完事了。
 
 集成开发环境也都齐全，我平时也就学学Java，所以装了个Eclipse（IDEA党退散），还是熟悉的界面，还是熟悉的味道。
 
@@ -136,6 +136,6 @@ git？额，git还要啥客户端，终端就是你的家。不过我不是Atom�
 
 ![012](https://public.lightpic.info/image/CEB7_59A001BC0.jpg)
 
-至于其他游戏么……与其折腾在linux上，你还是切Windows系统吧，我感觉这东西瞎折腾没有意义。
+至于其他游戏么……与其折腾在\*\nux上，你还是切Windows系统吧，我感觉这东西瞎折腾没有意义。
 
 啊，差点忘了说了，国际知名理财软件Sbteam现已登录Ubuntu，欲购从速啊。
