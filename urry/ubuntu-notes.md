@@ -2,23 +2,22 @@
 layout: post
 title: 使用一段时间Ubuntu系统后的小结
 tags: [essay]
-description: >
-  我并不是计算机专业学生，对计算机只是出于爱好。很多东西都带有许多主观感想在里面，还请多多谅解。
+description: > 我并不是计算机专业学生，对计算机只是出于爱好。很多东西都带有许多主观感想在里面，还请多多谅解。
 ---
 
 首先先说下我目前电脑系统的相关信息：
 
-> 操作系统：Windows 7 旗舰版 和 Ubuntu 16.04 LTS 双系统
+> 操作系统：Windows 7 旗舰版 & Ubuntu 16.04 LTS
 >
 > 内存：11.6 GB
 >
 > CPU：Intel® Core™ i3-2370M CPU @ 2.40GHz × 4 
 >
-> 显卡：Intel® Sandybridge Mobile 和 NVIDIA GEFORCE 720M
+> 显卡：Intel® Sandybridge Mobile or NVIDIA GEFORCE 720M
 
 # 1. 为什么我要用Ubuntu
 
-起因很简单，我想学习下Linux系统。先前我的舍友在我电脑上装过一个Ubuntu Kylin系统。不过由于Kylin的问题，还有我对Linux系统的不熟悉，这个系统除了白白耗去我100G的硬盘空间外别无用处。最近又突发奇想，想来捣鼓捣鼓Linux系统，于是把原来的Kylin卸载了，换成了Ubuntu 16.04 LTS系统。
+起因很简单，我想学习下Linux系统。先前我的舍友在我电脑上装过一个Ubuntu Kylin系统。不过由于Kylin的问题，还有我对Linux系统的不熟悉，这个系统除了白白耗去我100G的硬盘空间，就别无用处了。最近又突发奇想，想来捣鼓捣鼓Linux系统，于是把原来的Kylin卸载了，换成了Ubuntu 16.04 LTS系统。
 
 谈到这里，估计很多读者应该马上就会说到：Debian大法好，Arch大法好之类的话。不过我是初学者，而且学习Linux系统的目的也仅仅是能够跑日常的工作环境，写写Java，跑跑前端，做做Minecraft的本地化。Ubuntu用户量大，而且操作方便，兼容的软件多，确实是不二的选择。
 
@@ -35,7 +34,7 @@ Ubuntu的安装网络上教程恐怕已经铺天盖地了，我就不再多说�
 ## 1. 驱动
 
 
-Ubuntu自带的驱动都没啥问题，唯独就是这个NVIDIA的显卡驱动。我前后折腾了三四天，期间还曾经把grub引导整坏了一次，要么就是开机无限循环登录，要么就是Minecraft运行崩溃。就在我几乎绝望的时候，我打开了系统设置中的软件与更新，然后看到了这个。 ![01？](https://public.lightpic.info/image/B882_599FE9D80.jpg)
+Ubuntu自带的驱动都没啥问题，唯独就是这个NVIDIA的显卡驱动。我前后折腾了三四天，期间还曾经把grub引导整坏了一次，要么就是开机无限循环登录，要么就是Minecraft运行崩溃。就在我几乎绝望的时候，我打开了系统设置中的软件与更新，然后看到了这个。 ![001](https://public.lightpic.info/image/B882_599FE9D80.jpg)
 
 当时我的心情是绝望的，Ubuntu居然自带一个NVIDIA的显卡驱动。于是我果断切换驱动，重启，打开Minecraft，完美运行不崩溃。这才是我要的！
 
@@ -59,7 +58,7 @@ Ubuntu自带的驱动都没啥问题，唯独就是这个NVIDIA的显卡驱动�
 
 ![004](https://public.lightpic.info/image/1807_599FEEB30.jpg)
 
-浏览器当然是我们的谷歌浏览器啦~\(≧▽≦)/~，虽然Ubuntu自带一个火狐浏览器，不过那个火狐浏览器是英文界面。而且我曾经是火狐用户，每次点开火狐，那卡卡的启动，那不厌其烦的更新提示，能把人气死。其次我喜欢谷歌的一个叫Infinity插件，美观好用。（不知道火狐商店里有没有类似的插件）
+浏览器当然是我们的谷歌浏览器啦~\(≧▽≦)/~。虽然Ubuntu自带一个火狐浏览器，但那个火狐浏览器却是英文界面。而且我曾经是火狐用户，每次点开火狐，那卡卡的启动，那不厌其烦的更新提示，能把人气死。其次我非常喜欢谷歌浏览器的一个插件，"Infinity"，非常美观好用。（不知道火狐商店里有没有类似的插件...）
 
 ![005](https://public.lightpic.info/image/9957_599FF04D0.jpg)
 
