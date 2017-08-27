@@ -1,65 +1,70 @@
 > **此帖正常每天更新一次（9/1日后改为每周日更新），在更新与更新之间的时间里数值可能会有变动**
-> 最后更新：17/08/27 21:17
+>
+> 最后更新：17/08/27 21:40
+>
 > 更新备注：只改了一项
 > 
-> 这是第**4**次更新
+> 这是第**5**次更新
 > 
 > 
 > 回复量榜单：
-> :medal: **1、**[开这个帖子只是为了给大家上传图片然后在[PVPIN(删了)/BUGIN]里发图的](http://bbs.pvpin.com/topic/261/%E5%BC%80%E8%BF%99%E4%B8%AA%E5%B8%96%E5%AD%90%E5%8F%AA%E6%98%AF%E4%B8%BA%E4%BA%86%E7%BB%99%E5%A4%A7%E5%AE%B6%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E7%84%B6%E5%90%8E%E5%9C%A8-pvpin-%E5%88%A0%E4%BA%86-bugin-%E9%87%8C%E5%8F%91%E5%9B%BE%E7%9A%84)
+>
+> :medal: **1、** [开这个帖子只是为了给大家上传图片然后在（PVPIN(删了)/BUGIN）里发图的](http://bbs.pvpin.com/topic/261/%E5%BC%80%E8%BF%99%E4%B8%AA%E5%B8%96%E5%AD%90%E5%8F%AA%E6%98%AF%E4%B8%BA%E4%BA%86%E7%BB%99%E5%A4%A7%E5%AE%B6%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E7%84%B6%E5%90%8E%E5%9C%A8-pvpin-%E5%88%A0%E4%BA%86-bugin-%E9%87%8C%E5%8F%91%E5%9B%BE%E7%9A%84)
 > 回复量：**266**
 > 楼主： @wuo2 
 > 备注：**地位无人能够撼动！！！**
 > 
-> :military_medal: **2、**[问题建议](http://bbs.pvpin.com/topic/4/%E9%97%AE%E9%A2%98%E5%BB%BA%E8%AE%AE/251)
+> :military_medal: **2、**  [问题建议](http://bbs.pvpin.com/topic/4/%E9%97%AE%E9%A2%98%E5%BB%BA%E8%AE%AE/251)
 > 回复量：**251**
 > 楼主： @terry_ma 
 > 备注：虽然九天没有新帖，但仍然甩开第三名一大截呢
 > 
-> **3、**[【X0】【小说】名侦探XZ事件簿](http://bbs.pvpin.com/topic/717/x0-%E5%B0%8F%E8%AF%B4-%E5%90%8D%E4%BE%A6%E6%8E%A2xz%E4%BA%8B%E4%BB%B6%E7%B0%BF/100)
+> **3、** [【X0】【小说】名侦探XZ事件簿](http://bbs.pvpin.com/topic/717/x0-%E5%B0%8F%E8%AF%B4-%E5%90%8D%E4%BE%A6%E6%8E%A2xz%E4%BA%8B%E4%BB%B6%E7%B0%BF/100)
 > 回复量：**123**
 > 楼主： @X_Zero 
 > 备注：***创造奇迹的帖子，开帖1天之内上榜！***
 >
-> **4、**[[只有基佬（划掉改成大佬）三人组和天诛可以吐槽]pvpin之危机](http://bbs.pvpin.com/topic/702/%E5%8F%AA%E6%9C%89%E5%9F%BA%E4%BD%AC-%E5%88%92%E6%8E%89%E6%94%B9%E6%88%90%E5%A4%A7%E4%BD%AC-%E4%B8%89%E4%BA%BA%E7%BB%84%E5%92%8C%E5%A4%A9%E8%AF%9B%E5%8F%AF%E4%BB%A5%E5%90%90%E6%A7%BD-pvpin%E4%B9%8B%E5%8D%B1%E6%9C%BA/102)
+> **4、** [（只有基佬（划掉改成大佬）三人组和天诛可以吐槽）pvpin之危机](http://bbs.pvpin.com/topic/702/%E5%8F%AA%E6%9C%89%E5%9F%BA%E4%BD%AC-%E5%88%92%E6%8E%89%E6%94%B9%E6%88%90%E5%A4%A7%E4%BD%AC-%E4%B8%89%E4%BA%BA%E7%BB%84%E5%92%8C%E5%A4%A9%E8%AF%9B%E5%8F%AF%E4%BB%A5%E5%90%90%E6%A7%BD-pvpin%E4%B9%8B%E5%8D%B1%E6%9C%BA/102)
 > 回复量：**113**
 > 楼主： @傻子势力-OH 
 > 备注：***厉害了四天之内从零冲上第三！！！***
 > 
 > 
-> **4、**[自定义积木功能内测](http://bbs.pvpin.com/topic/58/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%A7%AF%E6%9C%A8%E5%8A%9F%E8%83%BD%E5%86%85%E6%B5%8B/109) 
+> **5、** [自定义积木功能内测](http://bbs.pvpin.com/topic/58/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%A7%AF%E6%9C%A8%E5%8A%9F%E8%83%BD%E5%86%85%E6%B5%8B/109) 
 > 回复量：**109**
 > 楼主： @terry_ma 
 > 备注：看来很多人都想要积木编辑器呢
 > 
-> **5、**[cmd教程 从简单的脚本到程序！！！](http://bbs.pvpin.com/topic/395/cmd%E6%95%99%E7%A8%8B-%E4%BB%8E%E7%AE%80%E5%8D%95%E7%9A%84%E8%84%9A%E6%9C%AC%E5%88%B0%E7%A8%8B%E5%BA%8F/106)
+> **6、**[cmd教程 从简单的脚本到程序！！！](http://bbs.pvpin.com/topic/395/cmd%E6%95%99%E7%A8%8B-%E4%BB%8E%E7%AE%80%E5%8D%95%E7%9A%84%E8%84%9A%E6%9C%AC%E5%88%B0%E7%A8%8B%E5%BA%8F/106)
 > 回复量：**106**
 > 楼主： @server 
 >  备注：不知道为什么上了榜……
 > 
 > 
-> **7、**[[编程下午茶]程序与算法[持续更新]](http://bbs.pvpin.com/topic/424/%E7%BC%96%E7%A8%8B%E4%B8%8B%E5%8D%88%E8%8C%B6-%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%AE%97%E6%B3%95-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/100)
+> **7、** [（编程下午茶）程序与算法（持续更新））](http://bbs.pvpin.com/topic/424/%E7%BC%96%E7%A8%8B%E4%B8%8B%E5%8D%88%E8%8C%B6-%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%AE%97%E6%B3%95-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/100)
 > 回复量：**101**
 > 楼主： @ancient_minister 
 > 备注：**编程下午茶系列最大的帖子**
 > 
-> **8、**[【8.22挑战】变身](http://bbs.pvpin.com/topic/696/8-22%E6%8C%91%E6%88%98-%E5%8F%98%E8%BA%AB/73)
+> **8、** [【8.22挑战】变身](http://bbs.pvpin.com/topic/696/8-22%E6%8C%91%E6%88%98-%E5%8F%98%E8%BA%AB/73)
 > 回复量：**88**
 > 楼主： @czm 
 > 备注：**有史以来回帖数最多的挑战贴，看来真的有很多人~~喷czm~~啊！**
 > 
-> **9、**[关于PVPIN小游戏服的事宜](http://bbs.pvpin.com/topic/695/%E5%85%B3%E4%BA%8Epvpin%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%9C%8D%E7%9A%84%E4%BA%8B%E5%AE%9C/76)
+> **9、** [关于PVPIN小游戏服的事宜](http://bbs.pvpin.com/topic/695/%E5%85%B3%E4%BA%8Epvpin%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%9C%8D%E7%9A%84%E4%BA%8B%E5%AE%9C/76)
 > 回复量：**76**
 > 楼主： @starkersawz666 
 > 备注：真的有很多人想帮忙开小游戏服啊
 > 
-> **10、**[新的故事（编程之源）](http://bbs.pvpin.com/topic/715/%E6%96%B0%E7%9A%84%E6%95%85%E4%BA%8B-%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%BA%90/72)
+> **10、** [新的故事（编程之源）](http://bbs.pvpin.com/topic/715/%E6%96%B0%E7%9A%84%E6%95%85%E4%BA%8B-%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%BA%90/72)
 > 回复量：**72**
 > 楼主： @傻子势力-OH 
 > 备注：@傻子势力-OH 快更！为什么不更了？！
 > 
 > **帖子上榜楼主榜单：**
+>
 > （顺序以上榜帖子数量为标准，次则以帖子排名为标准）
+>
 > 1、 @terry_ma  第2和第4
 > 2、 @傻子势力-OH  第4和第10
 > 3、 @wuo2 第1
