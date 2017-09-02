@@ -11,7 +11,7 @@ Man on the Internet **创作配音和歌曲**（那也是大型音乐剧的一�
 **Telegram 群:** https://t.me/zh_groups_bot?start=getdetail=-1001070205517  
 
 #### 禁止转载声明  
-[![](https://ooo.0o0.ooo/2017/06/27/59527b672d95c.png)](https://www.youtube.com/channel/UCkWuZ0UvpVzJ2d9n11bQpmA/about)  
+[![1](https://ooo.0o0.ooo/2017/06/27/59527b672d95c.png)](https://www.youtube.com/channel/UCkWuZ0UvpVzJ2d9n11bQpmA/about)  
 **翻译：** 转载我的视频到 Dailymotion/Bilibili 之类的地方是禁止的，即便是没有做过任何更改也不行。如果我拥有一个在非 Youtube 网站的频道，请让那个频道自由上传和翻译视频。（点击图片可看原文）  
 
 #### Patrean 赞助回报分级
