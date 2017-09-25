@@ -1,4 +1,10 @@
-Man on the Internet **创作配音和歌曲**（那也是大型音乐剧的一部分）。万维网是唯一可以支持我们制作内容的平台，也是让人们相聚的平台。我们的视频可以免费观看，**如果您能赞助我们，那将能使我们更加专注地为像你们这样的观众创作内容！**  
+--
+title: "Man on the Internet a.k.a. MoNetProduction"
+---
+
+
+
+Man on the Internet **创作配音和歌曲**（那也是大型音乐剧的一部分）。万维网是唯一可以支持我们制作内容的平台，也是让人们相聚的平台。我们的视频可以免费观看，**如果您能赞助我们，那将能使我们更加专注地为像你们这样的观众创作内容！**  
 
 给我们**赞助**，您可以提前获得更新：https://www.patreon.com/manontheinternet （支持信用卡、PayPal）    
 **Tumblr**: http://manontheinternet.tumblr.com/  
