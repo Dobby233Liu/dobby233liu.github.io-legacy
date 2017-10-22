@@ -3,10 +3,13 @@
 <head>
 <script type="text/javascript">
 var ProductDiv=document.getElementById("output");
-if (GetQueryString("things")){
+var a=GetQueryString("things");
+var ERR_NO_QUERY="use the “things” value in the url to let it working";
+if (a == "" || a == null || a == undefined){
 ProductDiv.innerHTML=GetQueryString("things");
      }else{
-  alert("use the “things” value in the url to let it working");
+  alert(ERR_NO_QUERY);
+  console.log(ERR_NO_QUERY);
     }
 </script>
 </head>
