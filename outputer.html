@@ -3,7 +3,11 @@
 <head>
 <script type="text/javascript">
 var ProductDiv=document.getElementById("output");
-// ProductDiv.innerHTML=; // placeholder
+if (GetQueryString("things")){
+ProductDiv.innerHTML=GetQueryString("things");
+     }else{
+  alert("use the “things” value in the url to let it working");
+    }
 </script>
 </head>
 <body>
