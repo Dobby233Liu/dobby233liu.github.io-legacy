@@ -5,15 +5,17 @@
 var ProductDiv=document.getElementById("output");
 var a=GetQueryString("things");
 var ERR_NO_QUERY="use the “things” value in the url to let it working";
-if (a == "" || a == null || a == undefined){
+     function OnLoad{
+if (a !== "" || a !== null || a !== undefined){
 ProductDiv.innerHTML=GetQueryString("things");
      }else{
   alert(ERR_NO_QUERY);
   console.log(ERR_NO_QUERY);
     }
+                    }
 </script>
 </head>
-<body>
+<body onload="OnLoad()">
 <a id="output"></a>
 </body>
 </html>
