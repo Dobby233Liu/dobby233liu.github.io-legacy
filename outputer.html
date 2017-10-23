@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <head>
 <script type="text/javascript">
-var ProductDiv=document.getElementById("output");
+var ProductDiv=document.getElementByTagName("div");
 var a=GetQueryString("things");
 var ERR_NO_QUERY="use the “things” value in the url to let it working";
      function OnLoad{
@@ -16,6 +16,6 @@ ProductDiv.innerHTML=GetQueryString("things");
 </script>
 </head>
 <body onload="OnLoad()">
-<a id="output" alt="output" title="output"></a>
+<div id="output" alt="output" title="output"></a>
 </body>
 </html>
