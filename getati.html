@@ -3,8 +3,7 @@
 $(document).ready(function(){
   $(".butt").click(function(){
     $.get($(".ipt").val(), function(data,status){
-      if (status != "success")
-        {
+      if (status != "success"){
           $(".sta").val(status);
         }else{
          $(".out").val(data);
