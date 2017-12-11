@@ -3,10 +3,20 @@
 $(document).ready(function(){
   $(".butt").click(function(){
     $.get($(".ipt").val(), function(data,status){
-      alert("数据：" + data + "\n状态：" + status);
+      if (status != "success")
+        {
+          $(".sta").val(status);
+        }else{
+         $(".out").val(data);
+         $(".sotd").innerHTML(data);
+         $(".sta").val(status);
+          }
     });
   });
 });
 </script>
 <textarea class="ipt"></textarea>
-<button class="butt" value="cilck m"></button>
+<button class="butt" alt="cilck m">cilck m</button>
+<textarea class="out"></textarea>
+<div class="sotd"></div>
+<textarea class="sta"></textarea>
