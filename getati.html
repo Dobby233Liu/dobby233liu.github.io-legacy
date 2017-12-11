@@ -5,7 +5,7 @@ $(document).ready(function(){
     $.get($(".ipt").val(), function(data,status){
      
          $(".out").val(data);
-         $(".sotd").innerHTML(data);
+         $(".sotd").load($(".ipt").val());
          $(".sta").val(status);
           
     });
