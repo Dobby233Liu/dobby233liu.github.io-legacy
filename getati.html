@@ -3,12 +3,10 @@
 $(document).ready(function(){
   $(".butt").click(function(){
     $.get($(".ipt").val(), function(data,status){
-     
          $(".out").val(data);
          $(".sotd").load($(".ipt").val());
          $(".sta").val(status);
-          
-    });
+        });
   });
 });
 <center>
