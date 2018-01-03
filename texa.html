@@ -1,1 +1,7 @@
 <center><textarea></textarea></center>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script>
+  if(location.getQueryString("txt")!==undefined){
+  document.getElementByTagName("textarea")[0].value=location.getQueryString("txt")
+  }
+//</script>
