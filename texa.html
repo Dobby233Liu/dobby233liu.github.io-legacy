@@ -4,14 +4,22 @@
   </center>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <script>
-  var saveAsR=require("file-saver").saveAs;
+  
   function saveit(){
-  saveAsR(new Blob([document.getElementById("t").value], {type: "text/plain;charset=utf-8"}), "Download.txt", true);
+    try{
+  require("file-saver").saveAs(new Blob([document.getElementById("t").value], {type: "text/plain;charset=utf-8"}), "Download.txt", true);
+      }catch(err){
+      alert(err.message)
+      }
     return;
   }
+  try{
   if(location.getQueryString("txt")!==undefined){
   document.getElementByTagName("textarea")[0].value=location.getQueryString("txt")
   }
+    }catch(e2){
+    alert(e2.message)
+    }
 //</script>
 <title>文本编辑器</title>
 <script src="http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js"></script>
