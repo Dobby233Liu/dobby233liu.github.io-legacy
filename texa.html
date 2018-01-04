@@ -14,8 +14,8 @@
     return;
   }
   try{
-  if(location.getQueryString("txt")!==undefined){
-  document.getElementByTagName("textarea")[0].value=location.getQueryString("txt")
+  if(getQueryString("txt")!==undefined){
+  document.getElementByTagName("textarea")[0].value=getQueryString("txt")
   }
     }catch(e2){
     alert(e2.message)
