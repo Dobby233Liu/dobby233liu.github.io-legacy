@@ -7,8 +7,8 @@
   
   function saveit(){
     try{
-      
-  require('file-saver', function(fs){fs.saveAs(new Blob([document.getElementById("t").value], {type: "text/plain;charset=utf-8"}), "Download.txt", true);)
+      var FS=require('file-saver')
+  FS.saveAs(new File([document.getElementById("t").value], {type: "text/plain;charset=utf-8"}), "Download.txt", true);
       }catch(err){
       alert(err.message)
       }
