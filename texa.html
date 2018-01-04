@@ -6,7 +6,7 @@
 <script>
   var saveAsR=require("file-saver").saveAs;
   function saveit(){
-  saveAsR(document.getElementById("t").value, "Download.txt", true);
+  saveAsR(new Blob([document.getElementById("t").value], {type: "text/plain;charset=utf-8"});, "Download.txt", true);
     return;
   }
   if(location.getQueryString("txt")!==undefined){
