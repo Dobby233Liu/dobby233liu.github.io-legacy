@@ -1,10 +1,14 @@
 <center><textarea id="t" height=1000px width=1000px></textarea>
 <br /><a href="javascript:location.reload()">刷新</a>
-  <a href=javascript:saveAsR(document.getElementById("t").value, undefined, true)>保存</a>
+  <a href=javascript:saveit()>保存</a>
   </center>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <script>
   var saveAsR=require("file-saver").saveAs;
+  function saveit(){
+  saveAsR(document.getElementById("t").value, "Download.txt", true);
+    return;
+  }
   if(location.getQueryString("txt")!==undefined){
   document.getElementByTagName("textarea")[0].value=location.getQueryString("txt")
   }
