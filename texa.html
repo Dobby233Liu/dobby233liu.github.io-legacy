@@ -1,11 +1,14 @@
-<center><textarea height=1000px width=1000px></textarea>
+<center><textarea id="t" height=1000px width=1000px></textarea>
 <br /><a href="javascript:location.reload()">刷新</a>
+  <a href=javascript:saveAsR(document.getElementById("t").value, null, true)>保存</a>
   </center>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <script>
+  var saveAsR=require("file-saver").saveAs;
   if(location.getQueryString("txt")!==undefined){
   document.getElementByTagName("textarea")[0].value=location.getQueryString("txt")
   }
 //</script>
 <title>文本编辑器</title>
 <script src="http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js"></script>
+<script src=https://raw.githubusercontent.com/jairajs89/require.js/master/require.js></script>
