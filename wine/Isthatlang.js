@@ -1,4 +1,4 @@
-this.isThatLang = function(langCode){
+try{this.isThatLang = function(langCode){
 try{
 if (!langCode){
 alert('isThatLang err: the "langCode" is not defined');
@@ -10,6 +10,7 @@ return undefined;
 return navigator.userLanguage = langCode;
 }catch(e){
 alert("isThatLang int err: " + e.message);
-}}
+}}}catch(e){
+alert(e.message)}
 
 
