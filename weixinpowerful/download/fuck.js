@@ -2,11 +2,11 @@ function cb (json) {
             location.href=json.url;
                 }
 function DlAlphaVersion(){
-var script = document.createElement('script'); 
-            script.type = 'text/javascript'; 
-            script.charset = 'utf-8'; 
-            script.src = 'http://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json?t=' + ~new Date; 
-            document.head.appendChild(script);
+  $.get("http://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json?t="+~new Date,function(data,status){
+    if(status==200){
+eval(data);
+}
+  });
 }
 function DlReleaseVersion(){
 try{
