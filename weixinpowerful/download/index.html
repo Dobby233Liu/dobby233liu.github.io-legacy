@@ -1,8 +1,7 @@
 <!doctype html>
   <head>
 	<title>Fuck</title>
-<script src="fuck.js"></script>
-<script src="jquery.js"></script>
+
  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"> <link rel="shortcut icon" type="image/x-icon" href="https://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/3wOU-7F.ico"> 
   <style>
 	buttoms{
@@ -16,6 +15,7 @@
 	.focus_con .more_v a{margin:0 2px}
 	.focus_con .v_img{float:right;margin:15px 5px 0;height:146px}
 .toolbar{background:#272727;color:#fff;border-top:1px solid #666;padding:6px 4px;margin:0;overflow:hidden;}
+#alphafr{display:none;}
   </style>
   </head><body>
  	<div class="toolbar">
@@ -46,13 +46,14 @@
   <div class="focus_con">
 	
 	  <img src="http://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1UCzgDf.png" class="v_img" hidefocus="true">
-	    <h3>微信，是一个生活方式</h3> <button onclick="DlReleaseVersion()" class="bt_download" hidefocus="true">下载正式版</button>
+	<h3>微信，是一个生活方式</h3> <a href="http://weixin.qq.com/cgi-bin/download302?check=false&uin=&stype=&fr=&lang=zh_CN&url=android16" class="bt_download" target="_blank" hidefocus="true">下载正式版</a>
 
 
-		<button onclick="DlAlphaVersion()" class="bt_download" hidefocus="true">下载内测版</button>
+		<a href="alpha.html" class="bt_download" target="_blank" hidefocus="true">下载内测版</a>
 	  
   <br />
 
 	<br /><div class="more_v"><a style="color:black;" href="https://weixin.qq.com" class="bt_download" hidefocus="true">导航到官方网站</a></div>
   </div>
+	<iframe id="alphafr"></iframe>
   </body>
