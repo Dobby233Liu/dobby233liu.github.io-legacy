@@ -17,4 +17,4 @@ location.href="http://weixin.qq.com/cgi-bin/download302?check=false&uin=&stype=&
 }catch(e){
 	alert(e.message);
 }
-}
+}}
