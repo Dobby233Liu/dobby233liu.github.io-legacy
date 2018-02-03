@@ -3,7 +3,7 @@
 <script>
 //var div = document.getElementById('div-tstimer');
     var span = document.getElementById('tstimer');
-   // div.title = "按AcFun无法访问的开始时间为北京时间2018-02-02 10:30:00计算";
+   span.title = "按AcFun无法访问的开始时间为北京时间2018-02-02 10:30:00计算";
     window.setInterval(function() {
       var diff = Date.now() - 1517538600000;
       var _ms = diff % 1000;
@@ -20,7 +20,7 @@
       var _m = parseInt(diff / 60);
       diff = diff % 60;
       var _s = diff;
-      span.innerHTML = +_d+'天'+_h+'小时'+_m+'分钟'+_s+'秒'+_ms+'毫秒';
+      span.innerHTML = _d+'天'+_h+'小时'+_m+'分钟'+_s+'秒'+_ms+'毫秒';
     }, 75);
 
 </script>
