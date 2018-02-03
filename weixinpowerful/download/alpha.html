@@ -1,12 +1,23 @@
 <script type="text/javascript" charset="utf-8" src="http://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script>function cb (json) {
   window.open(json.url, "_blank");
 			window.close();
 }
+$.get("http://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json",null,fuck(),null);
   /**var script = document.createElement('script'); 
             script.type = 'text/javascript'; 
             script.charset = 'utf-8'; 
             script.src = 'http://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json?t=' + ~new Date; 
             document.head.appendChild(script);**/
-
+function fuck(data,textStatus,jqXHR){
+var datajson;
+if ($.isPlainObject(data)){
+datajson=JSON.stringify(data);
+}
+if(datajson!==undefined){
+alert(data.result);
+eval(data.result);
+}
+}
 </script>
