@@ -1,0 +1,26 @@
+<center>AcFun炸了<span class="tstimer"></div><br /><noscript>你的浏览器不支持/禁止JavaScript<br /><!--现在AcFun活了，不用看了--></noscript></center>
+<!--script>alert("现在AcFun活了，不用看了");</script-->
+<script>
+//var div = document.getElementById('div-tstimer');
+    var span = document.getElementById('tstimer');
+   // div.title = "按AcFun无法访问的开始时间为北京时间2018-02-02 10:30:00计算";
+    window.setInterval(function() {
+      var diff = Date.now() - 1517538600000;
+      var _ms = diff % 1000;
+      if (_ms < 10) {
+        _ms = '00' + _ms;
+      } else if (_ms < 100) {
+        _ms = '0' + _ms;
+      }
+      diff = parseInt(diff / 1000);
+      var _d = parseInt(diff / 86400);
+      diff = diff % 86400;
+      var _h = parseInt(diff / 3600);
+      diff = diff % 3600;
+      var _m = parseInt(diff / 60);
+      diff = diff % 60;
+      var _s = diff;
+      span.innerHTML = +_d+'天'+_h+'小时'+_m+'分钟'+_s+'秒'+_ms+'毫秒';
+    }, 75);
+
+</script>
