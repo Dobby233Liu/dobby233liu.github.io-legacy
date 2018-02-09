@@ -1,10 +1,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js" integrity="sha256-dwhppIrxD8qC6lNulndZgtIm4XBU9zoMd9OUoXzIDAE=" crossorigin="anonymous"></script>
-<script>
+
+<a id="result"><script>
 try{
     var converter = new showdown.Converter();
     //进行转换
     var html = converter.makeHtml("*****Hello World!*****");
-    document.getElementById("result").innerHTML=html
+    document.write(html);
     }catch(e){alert(e.message)}
-</script>
-<a id="result"></a>
+</script></a>
