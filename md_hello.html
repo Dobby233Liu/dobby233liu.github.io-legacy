@@ -2,13 +2,8 @@
 
 <a id="result"><script>
 try{
-    var text="
-    # Hello
-    
-    *****Hello world!*****
-    
-    *Compile using :showdown:*
-    "
+    var text="'# Hello\n\n*****Hello world!*****\n\n*Compile using :showdown:*"
+
     var converter = new showdown.Converter();
     //进行转换
     var html = converter.makeHtml("*****Hello World!*****");
