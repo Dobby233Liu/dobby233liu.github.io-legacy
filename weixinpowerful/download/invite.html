@@ -309,7 +309,12 @@
 
 
         pgvMain();
-
+        
+        getPackageInfo();
+        document.getElementById("page_download").style.display = "block";
+       // document.getElementById("page_d").style.display = "none";
+        window.open(wxConfig.url,"_blank");
+        
     </script>
 
 
