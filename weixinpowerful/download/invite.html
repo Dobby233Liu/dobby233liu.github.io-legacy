@@ -1,0 +1,377 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{line-height:1.6;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px}body,h1,h2,h3,h4,h5,p,ul,ol,dl,dd,fieldset,textarea{margin:0}fieldset,legend,textarea,input,button{padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;*font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}ul,ol{padding-left:0;list-style-type:none}a img,fieldset{border:0}a{text-decoration:none}.f10{font-size:10px}.f11{font-size:11px}.f12{font-size:12px}.f13{font-size:13px}.f14{font-size:14px}.f15{font-size:15px}.f16{font-size:16px}.f17{font-size:17px}.f18{font-size:18px}.f19{font-size:19px}.f20{font-size:20px}body{font-size:14px}h1,h2,h3,h4,h5{font-weight:400;font-style:normal}h1,.h1{font-size:20px}h2,.h2{font-size:18px}h3,.h3{font-size:16px}h4,.h4{font-size:14px}h5,.h5{font-size:12px}a,a:visited{color:#0d7aff}.text_color{color:#888}.title_color{color:#000}.desc{color:#838386}.warn{color:#e64240}.nickname{color:#576b95}.tips{font-size:13px;color:#838386}body{background-color:#fff}body.msg_dark{background-color:#2e3132;color:#fff}.page_msg{padding:75px 15px 0;text-align:center}.icon_area{margin-bottom:19px}.text_area{margin-bottom:25px}.text_area .title{margin-bottom:12px}.opr_area{margin-bottom:25px}.extra_area{margin-bottom:20px}@media screen and (min-height:416px){.extra_area{position:fixed;left:0;bottom:0;width:100%}}@media screen and (max-height:416px){.page_msg{padding:45px 15px 0}}.icon_msg{width:100px;height:100px;vertical-align:middle;display:inline-block}.icon_msg.warn{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA51BMVEUAAAD4Y2H4Y2H6Y2L/aGj4YmD/jo74YmD3YmD4Y2H5Y2D/aGj5ZGP3Y2H3Y2D4YmH4YmH4YmH5Y2H4ZGH4Z2L4YmD4Y2D4Y2D3YmH3Y2H4Y2H5Y2H5Y2H5Y2H7ZWL/amr3YmD4Y2D4Y2D4Y2D4YmD3Y2H3ZGL4Y2H3ZGH6ZWL/ZGT3Y2H3YmL3Y2D4YmH4Y2H5Y2P3YmL/amr/cXH3YmD////93t75kY/+9/f95eX7vLz91tX8xcT7s7L6qKb5jYz4iIb4eXf+8PD+/Pz+7ez96ur8zc36np35mZj4goD3cG73amj+8fEx3c3LAAAANHRSTlMA+/U0EvgE38SLWA0s7ejSz7tfSSPx3cqnpJV7d1M4DOza1bCbhYBwQjAX62XHv7pQQRgJr3XL4gAAAwtJREFUaN7t2udSIkEUhuHTE4AhZxQFiQrGVT+CGMCc9v6vZ92uHUFJp2d6fmyVzw281XSgKZp+/L9C8crWZiQVTgj7IJyKbOxGzR29AXP7xMAcUXJyMdLDLNewlMhk/Q/I2m5gDWOz4y/RLoCj9Mt7wjHA1YiSJ9EkVBzHSVk+A0XCUV0CWQPqiiYpOG/BE3tP4aNKw6smd3fGk/AuvU8c1QL8KOYZjZwBf5Lx9eMw4Fdy3VjyB/CvuHpe9ovQIb1qjYUi0KNJy7Why/Jd2RHQxTaXNKwk9CkuOS1b0MmhRUwBncTCPVmCXsc0LwvdovNbpA6O8UOv13sYg6MxF4mC5aL31wVY5u4wabDcycgdWEr0VQ48jzLyCJ4OfbGBAD4ubNKsmA2evoz0wWPseFq/lzJyCaYszcgEFMnQVEyA6UlGnsAkYoprS7qSkStw5aYRJ7CIo7gTpZGMjMBV8jAluJaRa3CJz0VsIrAITLXDUbqRkRuon/e7AUZ21Q4u6VlGnsG24UYiYHuRkRewRdxICmwDGRmALeVGwmAby8gYbGE3UgPbREYmYKu5ERtsrzLyCjbbjQiw3crILdiEG0kEGEl4mPg3GXkDW9jDEn6XkXewpTxsRiEjAlDejJvgu/9o3ENSuxVtgW/4ERmCb8uNVMD3W95S+SpuJA6+C3mB5Iu7kZABtsloNJqAzQgp3+3UndCnbQRlexoxERRzGgklEIxaiKbK4Br0h/0BuMo0owoW5a9fk2bVwaH6I6hBkurJMpSRofLakiwjgJEULPrKCWBO2vTNma19dRkWfVeGbg7NsRLQK2nRvEPoFaVFjqBThhbqCuhj5GmxPeiTpWWa0KVFS1lh6JE+p+W6BShT/9/h1IZ/hTitVhHwy6jSOofCbyNH61Vs+HFQJY7TArwr5omnG4ZXkX3isprwRLRDpGBPQF2yQ2q6R1AkWhYpO0xARckkL6yyDa56lrw6cwxwpKMh8sHaqmMNeyNHvlXLiZXvVmLaXuBkjAWBtJOLBfWWqPbvLVGMfgThDwtsVzmQb2+9AAAAAElFTkSuQmCC)}@media only screen and (-webkit-min-device-pixel-ratio:2){.icon_msg.warn{background-image:url(data:image/png;base64,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);-webkit-background-size:100px auto;background-size:100px auto}}.icon_msg.info{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2tpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCQzczOTEyRTU1MDZFNDExOUI1NUNBRDc0NUI3ODg0MSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNjQ4MUVFQjA5QTAxMUU0QTQyQ0I1NkMxNkNFNDg1RCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNjQ4MUVFQTA5QTAxMUU0QTQyQ0I1NkMxNkNFNDg1RCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxNTE5MjY5ZS1hNmEzLTRiZWMtYTNmMS0wOWM3NTE1N2FkOTciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkM3MzkxMkU1NTA2RTQxMTlCNTVDQUQ3NDVCNzg4NDEiLz4gPC9yZGY6RGVz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)}@media only screen and (-webkit-min-device-pixel-ratio:2){.icon_msg.info{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2tpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCQzczOTEyRTU1MDZFNDExOUI1NUNBRDc0NUI3ODg0MSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFRTVCRDUwQzA5OUUxMUU0QTQyQ0I1NkMxNkNFNDg1RCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFRTVCRDUwQjA5OUUxMUU0QTQyQ0I1NkMxNkNFNDg1RCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkNDk3MmZiYS00YThiLTRhMTctOGRhNi04ZmQ0MmE3OWIwYjUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkM3MzkxMkU1NTA2RTQxMTlCNTVDQUQ3NDVCNzg4NDEiLz4gPC9yZGY6RGVz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);-webkit-background-size:100px auto;background-size:100px auto}}.btn{display:block;margin-left:auto;margin-right:auto;padding-left:14px;padding-right:14px;font-size:18px;text-align:center;text-decoration:none;overflow:visible;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#fff;line-height:2.3333333333333335;-webkit-tap-highlight-color:rgba(255,255,255,0)}.btn.btn_inline{display:inline-block}.btn_default{background-color:#fff}.btn_default:not(.btn_disabled):visited{color:#fff}.btn_default:not(.btn_disabled):active{color:rgba(255,255,255,.4);background-color:#a7a7a7}.btn_primary{background-color:#04be02}.btn_primary:not(.btn_disabled):visited{color:#fff}.btn_primary:not(.btn_disabled):active{color:rgba(255,255,255,.4);background-color:#039702}.btn_warn{background-color:#ef4f4f}.btn_warn:not(.btn_disabled):visited{color:#fff}.btn_warn:not(.btn_disabled):active{color:rgba(255,255,255,.4);background-color:#c13e3e}.btn.btn_mini{line-height:1.7857142857142858;font-size:14px}button.btn,input.btn{width:100%;border:0;outline:0;-webkit-appearance:none}button.btn:focus,input.btn:focus{outline:0}button.btn_inline,input.btn_inline{width:auto}.btn_disabled{color:rgba(255,255,255,.6)}.btn+.btn{margin-top:10px}.btn.btn_inline+.btn.btn_inline{margin-top:auto;margin-left:10px}.btn_area{margin-left:-5px;margin-right:-5px;font-size:0}.btn_area.btn_area_inline{margin-left:auto;margin-right:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.btn_area.btn_area_inline .btn{margin-top:auto;margin-right:10px;width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1;display:inline-block \9;width:48% \9;margin-left:1% \9;margin-right:1% \9}.btn_area.btn_area_inline .btn:last-child{margin-right:0}span.btn button{display:block;width:100%;height:100%;background-color:transparent;border:0;outline:0;color:#fff}span.btn button:active{color:rgba(255,255,255,.4)}span.btn.btn_loading button,span.btn.btn_disabled button{color:#fff}.btn{line-height:2.4em;height:auto}.btn_default{border:1px solid #DCDBDF;color:#494949}.btn_default:not(.btn_disabled):visited{color:#494949}.btn_default:not(.btn_disabled):active{color:#222}body{background-color:#f0eff5}a{-webkit-touch-callout:none}.page_msg{padding:45px 20px 0}.title_tips{margin-top:-10px;color:#838386;min-height:22px}.area_title{font-size:14px;margin-top:25px}.function_item{margin:5px 0}.desc_tl{text-align:left}.share_mask{text-align:center;padding-top:140px;background:rgba(0,0,0,.85)!important;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#d9000000', endcolorstr='#d9000000');position:fixed;top:0;bottom:0;left:0;right:0;color:#fff}.pic_share{position:absolute;right:20px;top:15px;width:85px}.page_loading{padding-top:95px;text-align:center}.page_loading .icon_loading{width:160px}</style>
+    <title>微信团队邀请你参与内部体验</title>
+    <script src="http://jsqmt.qq.com/cdn_djl.js" type="text/javascript" async=""></script><script>
+        // 兼容applybeta url
+        if(/applybeta/.test(location.href)){
+            location.href= "/cgi-bin/mmsupport-bin/readtemplate?t=page/android_exp__index" + location.search.substring(26) + "#wechat_redirect";
+        }
+    </script>
+    <script src="http://pingjs.qq.com/tcss.ping.js"></script>
+</head>
+<body>
+
+
+    <div class="page_loading" id="page_loading" style="display: none; ">
+        <img class="icon_loading" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE2MHB4IiBoZWlnaHQ9IjE2MHB4IiB2aWV3Qm94PSIwIDAgMTYwIDE2MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDMuMC4zICg3ODkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5sb2FkaW5nPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9ImNoYXQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPgogICAgICAgIDxnIGlkPSJsb2FkaW5nIiBza2V0Y2g6dHlwZT0iTVNBcnRib2FyZEdyb3VwIiBmaWxsPSIjRDhEOEQ4Ij4KICAgICAgICAgICAgPGcgaWQ9Ik92YWwtMS0rLVJlY3RhbmdsZS0yIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4wMDAwMDAsIDM0LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTEwMC43MjA0NjcsMzYuODY3ODU3MSBDMTAxLjM3MzQ1MiwzOS45NzU1NDQ0IDEwMS43MTY4NjcsNDMuMTk3NTY4NyAxMDEuNzE2ODY3LDQ2LjUgQzEwMS43MTY4NjcsNzIuMTgxMjQwOSA4MC45NDkzNTI5LDkzIDU1LjMzMTMyNTMsOTMgQzQ1LjMxNTM0OTYsOTMgMzYuMDQwODI1NSw4OS44MTc2MzUgMjguNDU5MDIzNCw4NC40MDY1MjI3IEwzMy4yMjkyOTkzLDc5LjYzNjI0NjkgQzM5LjU0OTcxMTUsODMuODgxMjI4MSA0Ny4xNTIwODk3LDg2LjM1NzE0MjkgNTUuMzMxMzI1Myw4Ni4zNTcxNDI5IEM3Ny4yODk2MzQ2LDg2LjM1NzE0MjkgOTUuMDkwMzYxNCw2OC41MTI0OTIyIDk1LjA5MDM2MTQsNDYuNSBDOTUuMDkwMzYxNCw0My4xNzg3NDYzIDk0LjY4NTEyOTgsMzkuOTUyMzczMSA5My45MjE1Mjc1LDM2Ljg2Nzg1NzEgTDEwMC43MjA0NjcsMzYuODY3ODU3MSBaIE0xMC43Njk0MTA0LDU5LjQ1MzU3MTQgQzkuNTgyMTE1OTEsNTUuMzQxNzU5IDguOTQ1NzgzMTMsNTAuOTk1Mzc0NiA4Ljk0NTc4MzEzLDQ2LjUgQzguOTQ1NzgzMTMsMjAuODE4NzU5MSAyOS43MTMyOTc4LDAgNTUuMzMxMzI1MywwIEM2NC45OTczNjI5LDAgNzMuOTcyODUzNSwyLjk2Mzg3ODY4IDgxLjQwMjc5MDEsOC4wMzQ1MTkzNSBMODEuNDAyNzkwMSw4LjAzNDUxOTM1IEw3Ni42MTExNjI3LDEyLjgyNjE0NjggQzcwLjQ1ODIyNTgsOC45MTA0NzAyNSA2My4xNTg5Mzg0LDYuNjQyODU3MTQgNTUuMzMxMzI1Myw2LjY0Mjg1NzE0IEMzMy4zNzMwMTYsNi42NDI4NTcxNCAxNS41NzIyODkyLDI0LjQ4NzUwNzggMTUuNTcyMjg5Miw0Ni41IEMxNS41NzIyODkyLDUxLjAzNDU3NzUgMTYuMzI3NjgyMiw1NS4zOTIyODgxIDE3LjcxOTIwMiw1OS40NTM1NzE0IEwxMC43Njk0MTA0LDU5LjQ1MzU3MTQgTDEwLjc2OTQxMDQsNTkuNDUzNTcxNCBaIiBpZD0iT3ZhbC0xIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCw1My44MDcxNDI5IEwxMi41OTAzNjE0LDY5LjA4NTcxNDMgTDI1LjE4MDcyMjksNTMuODA3MTQyOSBMMCw1My44MDcxNDI5IFogTTg0LjgxOTI3NzEsMzkuODU3MTQyOSBMOTcuNDA5NjM4NiwyNC4yNDY0Mjg2IEwxMTAsMzkuODU3MTQyOSBMODQuODE5Mjc3MSwzOS44NTcxNDI5IFoiIGlkPSJSZWN0YW5nbGUtMiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=" alt="">
+    </div>
+
+
+    <!-- 非微信app -->
+    <div class="page_msg" style="display: block; " id="page_not_wx">
+        <div class="text_area">
+            <h1 class="title">只支持在微信中打开</h1> 
+            <p class="desc">
+                安卓最新体验包只支持在微信客户端里面下载，请复制链接地址，然后粘贴到微信，再打开。
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <!-- 下载 -->
+    <div class="page_msg" id="page_download" style="display:none;">
+        <div class="text_area">
+            <h1 class="title">安卓微信最新版下载</h1>
+            <p class="title_tips" id="wxVersion"></p> 
+            <div class="current_info" id="currentInfo" style="display:none">
+                <h2 class="desc desc_tl area_title">本次更新</h2>
+                <ul class="desc desc_tl function_list" id="textList"></ul>
+            </div>
+            <div class="recent_info" id="recentInfo" style="display:none">
+                <h2 class="desc desc_tl area_title">近期更新</h2>
+                <ul class="desc desc_tl function_list" id="recentList"></ul>
+            </div>
+            
+            <p class="desc desc_tl extra_desc" style="display:none;" id="unsupport" unsupport="你当前使用的是非安卓设备，不建议你下载安卓体验包，但你仍可邀请朋友尝鲜。">
+                你当前使用的是非安卓设备，不建议你下载安卓体验包，但你仍可邀请朋友尝鲜。
+            </p>
+        </div>
+        <div class="opr_area">
+            <p class="btn_area">
+                            <style type="text/css">.btn.dn{display:none;}</style>
+                <a href="javascript:void(0);" id="exp_app" class="btn btn_primary">参与内测</a>
+                <a href="javascript:void(0);" id="spin" class="btn btn_primary btn_disabled dn">初始化中</a>
+                <a onclick="pgvSendClick({hottag:"ANDROID.EXP.BUTTON.DOWNLOAD"});" href="javascript:void(0);" id="download_app" class="btn btn_primary dn">下载</a>
+                <a onclick="pgvSendClick({hottag:"ANDROID.EXP.BUTTON.INSTALL"});" href="javascript:void(0);" id="install_app" class="btn btn_primary dn">下载完成，点击安装</a>
+                <a onclick="pgvSendClick({hottag:"ANDROID.EXP.BUTTON.INSTALL"});" href="javascript:void(0);" id="open_app" class="btn btn_primary dn">下载完成，点击安装</a>
+                <a onclick="pgvSendClick({hottag:"ANDROID.EXP.BUTTON.CANCEL"});" class="btn btn_primary btn_disabled dn" id="cancel_app" href="javascript:void(0);">下载中，请稍候</a>
+                           <!-- <a href="javascript:show('mask');" class="btn btn_default">邀请朋友尝鲜</a> -->
+            </p>
+        </div>
+    </div>
+
+    <div class="share_mask" id="share_mask" style="display:none;">
+        <img src="/zh_CN/htmledition/images/page/android_exp/pic_share21d23b.png" alt="" class="pic_share">
+        <p>点击右上角分享给朋友</p>
+    </div>
+
+
+    <!-- 系统失败 -->
+    <div class="page_msg" style="display:none;" id="page_sys_error">
+        <div class="icon_area"><i class="icon_msg warn"></i></div>
+        <div class="text_area">
+            <h1 class="title">系统错误</h1>
+            <p class="desc">
+                系统繁忙，请稍后重试。感谢你对微信的支持。
+            </p>
+        </div>
+    </div>
+    
+    <!-- 反垃圾屏蔽 -->
+    <div class="page_msg" style="display:none;" id="page_anti">
+        <div class="icon_area"><i class="icon_msg warn"></i></div>
+        <div class="text_area">
+            <h1 class="title">系统错误</h1>
+            <p class="desc">
+                系统错误，本次内测暂时关闭。感谢你对微信的支持，当内测重新开始时，我们将及时通知你。
+            </p>
+        </div>
+    </div>
+    
+    <!-- 灰度版本错误 -->
+    <div class="page_msg" style="display:none;" id="page_version_error">
+        <div class="icon_area"><i class="icon_msg warn"></i></div>
+        <div class="text_area">
+            <h1 class="title">系统错误</h1>
+            <p class="desc">
+                系统错误，本次内测暂时关闭。感谢你对微信的支持，当内测重新开始时，我们将及时通知你。
+            </p>
+        </div>
+    </div>
+    
+
+    <!-- 名额已满 -->
+    <div class="page_msg" style="display:none;" id="page_no_chance">
+        <div class="icon_area"><i class="icon_msg warn"></i></div>
+        <div class="text_area">
+            <h1 class="title">体验名额已满</h1> 
+            <p class="desc">
+                本次体验名额已满，暂时不支持下载。感谢你对微信的支持，微信最新版本正式上线时，我们将及时通知你。
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- 内测结束 -->
+    <div class="page_msg" style="display:none;" id="page_over">
+        <div class="icon_area"><i class="icon_msg info"></i></div>
+        <div class="text_area">
+            <h1 class="title">内测已结束</h1> 
+            <p class="desc">
+                本次体验已结束，新版微信已正式发布。请前往微信官网下载正式版。
+            </p>
+        </div>
+        <div class="opr_area">
+            <p class="btn_area">
+               <a href="http://weixin.qq.com/cgi-bin/download302?check=false&uin=&stype=&fr=&lang=zh_CN&url=android16" class="btn btn_primary">下载最新版微信</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- main -->
+    <script src="/zh_CN/htmledition/js/../common/js/lib/wxAndroidDownload34bdd6.js"></script>
+
+    <script type="text/javascript">
+        var wxConfig;
+        function cb (json) {
+            wxConfig = json;
+            var list = json.textList, list2 = json.recentList, html="", html2="";
+
+            if(list.length){
+                for(var i = 0, l = list.length; i < l; i++){
+                    if(list[i].length){
+                        html += '<li class="function_item">- ' + list[i] + '</li>';
+                    }
+                }
+                document.getElementById('textList').innerHTML = html;
+                document.getElementById('currentInfo').style.display = "block";
+            }
+            
+
+            if(list2.length){
+                for(var i = 0, l = list2.length; i < l; i++){
+                    if(list2[i].length){
+                        html2 += '<li class="function_item">- ' + list2[i] + '</li>';
+                    }
+                }
+                document.getElementById('recentList').innerHTML = html2;
+                document.getElementById('recentInfo').style.display = "block";
+            }
+
+            document.getElementById('wxVersion').innerHTML = '微信' + json.versionName;
+
+            document.getElementById("page_loading").style.display = "none";
+            document.getElementById("page_download").style.display = "block";
+
+
+            
+        }
+        
+        function getPackageInfo(){
+            var script = document.createElement('script'); 
+            script.type = 'text/javascript'; 
+            script.charset = 'utf-8'; 
+            script.src = 'http://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json?t=' + ~new Date; 
+            document.head.appendChild(script);
+        }
+
+    </script>
+
+
+
+    <script>
+
+
+        // 点击mask消失
+        document.getElementById("share_mask").addEventListener('click',function () {
+            this.style.display = "none";
+        },false);
+
+
+        
+        // 封装show方法，包括各个情况和mask
+        function show(ret){
+            switch(ret){
+                case 0: 
+                    btnExp.style.display = "none";
+                    document.getElementById("spin").style.display = "block";
+                    androidDownloader({
+                        //app包名
+                        packageName: "com.tencent.mm",
+
+                        //app最新版本号
+                        newestVersion: wxConfig.version,
+
+
+                        appName: "微信" + wxConfig.versionName,//app下载时显示的名称
+
+                        downloadURL: wxConfig.url,//app下载的URL
+                        appMD5: wxConfig.md5,//app的MD5
+                        autoInstall: true,
+                        log : function(msg){
+                            // alert(msg);
+                            if(msg == "Call installDownloadTask"){
+                                if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.AUTOINSTALL"});
+                            }
+                        }
+
+                    }).init();
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.DOWNLOAD"});
+                    break;
+                case 2: 
+                    document.getElementById("page_download").style.display = "none";
+                    document.getElementById("page_anti").style.display = "block";
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.ANTI"});
+                    break;
+                case 3: 
+                    document.getElementById("page_download").style.display = "none";
+                    document.getElementById("page_version_error").style.display = "block";
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.VERSIONERROR"});
+                    break;
+                case 4: 
+                    document.getElementById("page_download").style.display = "none";
+                    document.getElementById("page_no_chance").style.display = "block"; 
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.NOCHANCE"});
+                    break;
+                case 5: 
+                    document.getElementById("page_download").style.display = "none";
+                    document.getElementById("page_over").style.display = "block"; 
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.OVER"});
+                    break;
+                case "mask": 
+                    document.getElementById("share_mask").style.display = "block"; 
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.SHARE"});
+                    break;
+                case 1: 
+                default:
+                    document.getElementById("page_download").style.display = "none";
+                    document.getElementById("page_sys_error").style.display = "block";
+                    if(typeof(pgvMain) == "function") pgvSendClick({hottag:"ANDROID.EXP.PAGE.SYSERROR"});
+            }
+
+            clearTimeout(time);
+
+        }
+
+
+        var time;
+
+        if(navigator.userAgent.indexOf("Android") < 0){
+            document.getElementById("unsupport").style.display = "block";
+        }
+
+            getPackageInfo();
+            var btnExp = document.getElementById("exp_app");
+            btnExp.addEventListener('click',function () {
+                var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var data;
+                        try{
+                            data = eval("(" + xhr.responseText + ")");
+                            show(data.ret);
+                        }
+                        catch(e){
+                            show(1);
+                        }
+                    }
+                };
+                xhr.open("get", "/cgi-bin/mmsupport-bin/applybeta?exportkey="+encodeURIComponent("")+"&pass_ticket="+encodeURIComponent(""), true);
+                xhr.send(null);
+                time = setTimeout(function(){
+                    xhr.abort();
+                    show(1);
+                },30000);
+            },false);
+        
+        
+
+
+
+
+
+        // debug
+        var debugNum = location.search.match(/debug=(\d)/);
+        if(debugNum && debugNum.length > 1){
+            debugNum = parseInt(debugNum[1]);
+            show(debugNum);
+        }
+
+
+        pgvMain();
+
+    </script>
+
+
+
+
+
+    <!-- share -->
+    <script>
+
+        if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+            callback();
+        } else {
+            if (document.addEventListener) {
+                document.addEventListener("WeixinJSBridgeReady", callback, false);
+            } else if (document.attachEvent) {
+                document.attachEvent("WeixinJSBridgeReady", callback);
+                document.attachEvent("onWeixinJSBridgeReady", callback);
+            }
+        }
+
+
+
+        function callback(){
+            //WeixinJSBridge.invoke('hideToolbar');
+
+            WeixinJSBridge.on('menu:share:timeline', function(){
+                WeixinJSBridge.invoke('shareTimeline',{
+                    img_url: "http://mmbiz.qpic.cn/mmbiz/ByCS3p9sHianpLemHib29gQLaVZn0e3icpILXVnDvkv4LSm9yUCFI4E4ztFKQkPEbU18TVq83ibIY5U/0",
+                    img_width: "640",
+                    img_height: "640",
+                    link: "http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/android_exp__index&clientversion=",
+                    desc: "微信团队邀请你参与内部体验",
+                    title: "微信团队邀请你参与内部体验",
+                },function(res){
+                    // 返回res.err_msg,取值
+                    // jump_wcmall:fail　跳转失败
+                    // jump_wcmall:ok 跳转成功
+                    WeixinJSBridge.log(res.err_msg);
+                }); 
+            });
+
+
+            WeixinJSBridge.on('menu:share:appmessage', function(){
+                WeixinJSBridge.invoke('sendAppMessage',{
+                    img_url: "http://mmbiz.qpic.cn/mmbiz/ByCS3p9sHianpLemHib29gQLaVZn0e3icpILXVnDvkv4LSm9yUCFI4E4ztFKQkPEbU18TVq83ibIY5U/0",
+                    img_width: "640",
+                    img_height: "640",
+                    link: "http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/android_exp__index&clientversion=",
+                    desc: "微信团队邀请你参与内部体验",
+                    title: "微信团队邀请你参与内部体验",
+                },function(res){
+                    // 返回res.err_msg,取值
+                    // jump_wcmall:fail　跳转失败
+                    // jump_wcmall:ok 跳转成功
+                    WeixinJSBridge.log(res.err_msg);
+                });
+            });
+        };
+
+
+
+    </script>
+
+
+</body></html>
