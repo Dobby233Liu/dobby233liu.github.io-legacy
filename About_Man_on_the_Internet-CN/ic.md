@@ -27,8 +27,8 @@ Man on the Internet 是**创作配音和歌曲**（那也是大型音乐剧的�
 **QQ 群:** [335817224](https://shang.qq.com/wpa/qunwpa?idkey=c6a1a69137acdcb4918df6405d31295211ae1cc7c5177362268d4f2fa59f10ce)     
 [**Telegram 群**](https://t.me/zh_groups_bot?start=getdetail=-1001070205517)  
 
-# 禁止转载声明（图片不见了）  
-[![1](https://ooo.0o0.ooo/2017/06/27/59527b672d95c.png)](https://www.youtube.com/channel/UCkWuZ0UvpVzJ2d9n11bQpmA/about)
+# 禁止转载声明（图片~~不见~~被我重新制作了）  
+[![1](https://github.com/Dobby233Liu/dobby233liu.github.io/raw/master/About_Man_on_the_Internet-CN/Screenshot_2018-02-03-16-29-26_comp_comp.png)](https://www.youtube.com/channel/UCkWuZ0UvpVzJ2d9n11bQpmA/about)
 
 **翻译：** 转载我的视频到 Dailymotion/bilibili 之类的地方是禁止的，即便是没有做过任何更改也不行。如果我拥有一个在非 YouTube 网站的频道，请让那个频道自由上传和翻译视频。（点击图片可看原文）  
 
