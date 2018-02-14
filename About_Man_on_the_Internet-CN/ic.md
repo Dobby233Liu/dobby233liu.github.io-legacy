@@ -94,6 +94,6 @@ Man on the Internet 是**创作配音和歌曲**（那也是大型音乐剧的�
 
 # **有关代理运营的证明材料（404不存在的）：**  
 
-[![](https://raw.githubusercontent.com/Dobby233Liu/dobby233liu.github.io/About_Man_on_the_Internet-CN/Screenshot_2018-02-03-16-22-31_comp_comp.png )](https://www.patreon.com/posts/11784911)
+[![](https://github.com/Dobby233Liu/dobby233liu.github.io/raw/master/About_Man_on_the_Internet-CN/Screenshot_2018-02-03-16-22-31_comp_comp.png)](https://www.patreon.com/posts/11784911)
 
 ~~# （编辑者：TODO一下；翻墙去看看这东西）~~
