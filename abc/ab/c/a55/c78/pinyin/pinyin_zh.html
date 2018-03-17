@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><title>汉语拼音点读机</title><link rel="shortcut icon" type="image/ico" href="hypy_zh_favicon.png" /><meta name="author" contect="Liu wenyuan"><meta property="og:image" content="hypy_zh_favicon.png"/>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport"><meta content="telephone=no" name="format-detection"><audio id="audio" hidden="true"></audio>
+<script>
+function play_audio(url){
+var docum=document.getElementById("audio");
+docum.src=url;
+docum.play()
+}
+function callback(){
+var pinyin=document.getElementById("pinyin").value,tone=document.getElementById("tone").value,url="http://appcdn.fanyi.baidu.com/zhdict/mp3/"+pinyin+tone+".mp3"
+play_audio(url)
+return;
+}
+</script>
+<p><h1>汉语拼音点读机 <small>beta 0.1</small></h1>
+<p><textarea id="pinyin" placeholder="拼音">hao</textarea><textarea id="tone" placeholder="声调（数字）">3</textarea></p>
+<input type="button" onclick="callback();return;" value="播放"/>
+<p><noscript>
+不能播放，请启用 JavaScript！
+</noscript></p>
+<footer><i><small>汉语拼音点读机 <small>beta 0.1</small> 作者：刘文源</small></i></footer>

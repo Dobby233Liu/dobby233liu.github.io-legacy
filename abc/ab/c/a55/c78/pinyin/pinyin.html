@@ -1,0 +1,21 @@
+<!doctype html><title>Pinyin</title><meta charset="utf-8"><link rel="shortcut icon" type="image/ico" href="hypy_favicon.png" /><meta name="author" contect="Liu wenyuan"><meta property="og:image" content="hypy_favicon.png"/>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport"><meta content="telephone=no" name="format-detection"><audio id="audio" hidden="true"></audio>
+<script>
+function play_audio(url){
+var docum=document.getElementById("audio");
+docum.src=url;
+docum.play()
+}
+function callback(){
+var pinyin=document.getElementById("pinyin").value,tone=document.getElementById("tone").value,url="http://appcdn.fanyi.baidu.com/zhdict/mp3/"+pinyin+tone+".mp3"
+play_audio(url)
+return;
+}
+</script>
+<p><h1><i>Pinyin</i> <small>beta 0.1</small></h1>
+<p><textarea id="pinyin" placeholder="Pinyin">hao</textarea><textarea id="tone" placeholder="Tone">3</textarea></p>
+<input type="button" onclick="callback();return;" value="play"/>
+<p><noscript>
+Cannot play!
+</noscript></p>
+<footer><i><small>Pinyin <small>beta 0.1</small> by Liu wenyuan</small></i></footer>
