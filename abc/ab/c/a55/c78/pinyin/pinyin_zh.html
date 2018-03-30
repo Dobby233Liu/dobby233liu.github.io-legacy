@@ -23,3 +23,58 @@ return;
      if(navigator.userAgent.indexOf("MicroMessenger")>0){document.write("不要用微信浏览器打开")}
 </script></p>
 <footer><i><small>汉语拼音点读机 <small>beta 0.1</small> 作者：刘文源</small></i></footer>
+  <script>
+
+        if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+            callback();
+        } else {
+            if (document.addEventListener) {
+                document.addEventListener("WeixinJSBridgeReady", callback, false);
+            } else if (document.attachEvent) {
+                document.attachEvent("WeixinJSBridgeReady", callback);
+                document.attachEvent("onWeixinJSBridgeReady", callback);
+            }
+        }
+
+
+
+        function callback(){
+            //WeixinJSBridge.invoke('hideToolbar');
+
+            WeixinJSBridge.on('menu:share:timeline', function(){
+                WeixinJSBridge.invoke('shareTimeline',{
+                    img_url: "https://raw.githubusercontent.com/Dobby233Liu/dobby233liu.github.io/master/abc/ab/c/a55/c78/pinyin/hypy_zh_favicon.png",
+                    img_width: "256",
+                    img_height: "256",
+                    link: "https://dobby233liu.github.io/abc/ab/c/a55/c78/pinyin/pinyin_zh.html#",
+                    desc: "汉语拼音点读机",
+                    title: "汉语拼音点读机",
+                },function(res){
+                    // 返回res.err_msg,取值
+                    // jump_wcmall:fail　跳转失败
+                    // jump_wcmall:ok 跳转成功
+                    WeixinJSBridge.log(res.err_msg);
+                }); 
+            });
+
+
+            WeixinJSBridge.on('menu:share:appmessage', function(){
+                WeixinJSBridge.invoke('sendAppMessage',{
+                    img_url: "https://raw.githubusercontent.com/Dobby233Liu/dobby233liu.github.io/master/abc/ab/c/a55/c78/pinyin/hypy_zh_favicon.png",
+                    img_width: "256",
+                    img_height: "256",
+                    link: "https://dobby233liu.github.io/abc/ab/c/a55/c78/pinyin/pinyin_zh.html#",
+                    desc: "汉语拼音点读机",
+                    title: "汉语拼音点读机",
+                },function(res){
+                    // 返回res.err_msg,取值
+                    // jump_wcmall:fail　跳转失败
+                    // jump_wcmall:ok 跳转成功
+                    WeixinJSBridge.log(res.err_msg);
+                });
+            });
+        };
+
+
+
+    </script>
