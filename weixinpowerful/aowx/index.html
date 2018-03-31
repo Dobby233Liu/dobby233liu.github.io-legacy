@@ -1,0 +1,79 @@
+<style>/*
+* Noto Sans SC (Chinese Simplified) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Thin.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Thin.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Light.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Light.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans SC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans SC';
+   font-style: normal;
+   font-weight: 500;
+   src: url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Medium.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Medium.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans SC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans SC';
+   font-style: normal;
+   font-weight: 900;
+   src: url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Black.woff2) format('woff2'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Black.woff) format('woff'),
+        url(https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Black.otf) format('opentype');
+ }</style>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport"><meta content="telephone=no" name="format-detection"><title>微信内测</title><body onload="ol()" style="font-family:'Noto Sans SC'">
+ <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> 
+<h1>微信内测信息</h1>
+<h2>md5</h2>
+<span id="md5"></span>
+<h2>url (下载地址)</h2>
+<span id="url"></span>
+<h2>versionName (版本)</h2>
+<span id="vname"></span>
+<h2>textList (更新列表)</h2>
+<span id="tl"><hr /></span>
+<script>
+function ol(){
+jQuery.ajax({
+  url: "https://dldir1.qq.com/weixin/android/weixin_android_alpha_config.json",
+  data: {},
+  complete: function(data){eval(data)},
+  dataType: "script",
+  async: true,
+  crossDomain: true,
+  scriptCharset: "utf-8"
+});
+}
+function cb(json){document.getElementById("md5").innerHTML=json.md5;document.getElementById("url").innerHTML="<a href='"+json.url+"'>"+json.url+"</a>";document.getElementById("vname").innerHTML=json.versionName;for(i in json.textList){document.getElementById("tl").innerHTML=document.getElementById("tl").innerHTML+json.textList[i]+"<hr />"}}
+</script><br />
+<footer><i>lwys个人黑科技，使用jquery</i></footer>
+</body>
