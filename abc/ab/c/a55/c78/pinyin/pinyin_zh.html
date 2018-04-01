@@ -26,22 +26,20 @@ return;
 <footer><i><small>汉语拼音点读机 <small>beta 0.1</small> 作者：刘文源</small></i>
   <script>
 
-        if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
-            callbacka();
-        } else {
-            if (document.addEventListener) {
-                document.addEventListener("WeixinJSBridgeReady", callbacka, false);
-            } else if (document.attachEvent) {
-                document.attachEvent("WeixinJSBridgeReady", callbacka);
-                document.attachEvent("onWeixinJSBridgeReady", callbacka);
-            }
-        }
+        function onBridgeReady(){
+ WeixinJSBridge.call('hideOptionMenu');
+}
 
-
-
-        function callbacka(){
-            WeixinJSBridge.invoke('hideToolbar');}
-
+if (typeof WeixinJSBridge == "undefined"){
+    if( document.addEventListener ){
+        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+    }else if (document.attachEvent){
+        document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+    }
+}else{
+    onBridgeReady();
+}
             
 
     </script></footer>
