@@ -44,10 +44,10 @@ return;
 
             WeixinJSBridge.on('menu:share:timeline', function(){
                 WeixinJSBridge.invoke('shareTimeline',{
-                    img_url: "https://raw.githubusercontent.com/Dobby233Liu/dobby233liu.github.io/master/abc/ab/c/a55/c78/pinyin/hypy_zh_favicon.png",
+                    img_url: "hypy_zh_favicon.png",
                     img_width: "256",
                     img_height: "256",
-                    link: "https://dobby233liu.github.io/abc/ab/c/a55/c78/pinyin/pinyin_zh.html#",
+                    link: window.location.href,
                     desc: "汉语拼音点读机",
                     title: "汉语拼音点读机"
                 },function(res){
@@ -61,10 +61,10 @@ return;
 
             WeixinJSBridge.on('menu:share:appmessage', function(){
                 WeixinJSBridge.invoke('sendAppMessage',{
-                    img_url: "https://raw.githubusercontent.com/Dobby233Liu/dobby233liu.github.io/master/abc/ab/c/a55/c78/pinyin/hypy_zh_favicon.png",
+                    img_url: "hypy_zh_favicon.png",
                     img_width: "256",
                     img_height: "256",
-                    link: "https://dobby233liu.github.io/abc/ab/c/a55/c78/pinyin/pinyin_zh.html#",
+                    link: window.location.href,
                     desc: "汉语拼音点读机",
                     title: "汉语拼音点读机"
                 },function(res){
