@@ -27,7 +27,16 @@ return;
   <script>
 
         function onBridgeReady(){
- WeixinJSBridge.call('hideOptionMenu');
+ WeixinJSBridge.call('hideOptionMenu',{},function(res){
+
+    //alert(res.err_msg);
+
+});
+            WeixinJSBridge.call('hideToolbar',{},function(res){
+
+    //alert(res.err_msg);
+
+}); 
 }
 
 if (typeof WeixinJSBridge == "undefined"){
