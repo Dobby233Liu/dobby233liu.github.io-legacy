@@ -13,10 +13,10 @@
   function saveit(){
     try{
   
-  
-    var FS = require('file-saver');
-    FS.saveAs(new Blob([document.getElementById("t").value], {type: "text/plain;charset=utf-8"}), "Download.txt", true);
-
+  requirejs(["./FileSaver","./Blob"],function(FileSaver,Blob){
+    
+    FileSaver.saveAs(new Blob([document.getElementById("t").value], {type: "text/plain;charset=utf-8"}), "Download.txt", true);
+});
        }catch(err){
       alert(err.message)
       }
