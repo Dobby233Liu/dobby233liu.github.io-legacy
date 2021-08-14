@@ -38,4 +38,16 @@
   <loc>https://dobby233liu.github.io/index.html</loc>
   <changefreq>always</changefreq>
 </url>
+<url>
+  <loc>https://dobby233liu.github.io/node-bullshit-generator</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://dobby233liu.github.io/garfield.csv</loc>
+  <changefreq>always</changefreq>
+</url>
+<!--url>
+  <loc>https://dobby233liu.github.io/DDDG-pre</loc>
+  <changefreq>always</changefreq>
+</url-->
 </urlset>
